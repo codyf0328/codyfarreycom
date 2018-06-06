@@ -1,0 +1,198 @@
+@font-face {
+	font-family: MyriadPro;
+	src: url(/content/fonts/MyriadPro.ttf);
+}
+
+@font-face {
+	font-family: MyriadProBold;
+	src: url(/content/fonts/MyriadProBold.ttf);
+}
+
+body {
+	background-image: url(/img/background.jpg);
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	height: 100px;
+}
+
+
+
+/*
+ *  Custom site header
+ */
+ 
+.site-header {
+	font-family: 'MyriadProBold', Arial, serif;
+	font-size: 14px;
+	background-color: rgba(0, 0, 0, .45);
+	text-transform: uppercase;
+	padding: 30px 30px 60px 60px;
+}
+
+.site-header a {
+	color: #fff;
+	transition: ease-in-out-color .15s;
+}
+
+.site-header br {
+	display: block;
+	margin: 10px 0px;
+}
+
+.site-header a:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+.hero-image {
+	width:100%;
+	background-image: url(/img/js-desk.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.hero-image h5 {
+	color:white;
+	text-shadow:2px 2px #333;
+}
+
+
+.hero-info {
+	position: relative;
+	left: 50%;
+	text-align: left;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.hero-info h3 {
+	color: white;
+	font-family: 'MyriadProBold', Arial, serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.hero-info p {
+	color: white;
+	font-family: Arial, serif;
+	font-size: 16px;
+}
+
+.navbar-brand h6 {
+	display: block;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.navbar-brand small {
+	display: block;
+	font-family: 'MyriadPro', Arial, serf;
+	font-size: 10px;
+	margin-top: 0px;
+}
+
+.nav li {
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.row-two {
+	width: 100%;
+	font-family: Arial;
+	padding: 150px 60px 150px 60px;
+	background-color: white;
+	text-align: center;
+}
+
+.row-two h2 {
+	font-family: 'MyriadProBold', Arial, serif;
+	text-transform: uppercase;
+}
+
+.row-three {
+	color: white;
+	width: 100%;
+	font-family: Arial;
+	padding: 60px 0px 60px 0px;
+}
+
+.row-three h2 {
+	font-family: 'MyriadProBold', Arial, serif;
+	text-transform: uppercase;
+}
+
+.row-three .sec-one {
+	text-align: right;
+	padding-left: 180px;
+}
+
+.row-three .sec-two {
+	text-align: left;
+	padding-right: 180px;
+}
+
+.row-four {
+	padding: 120px 0px 120px 0px;
+}
+
+.project-row-light {
+	width: 100%;
+	font-family: Arial;
+	padding: 10% 5% 10% 5%;
+	background-color: white;
+	text-align: center;
+}
+
+.project-row-light h2 {
+	font-family: 'MyriadProBold', Arial, serif;
+	text-transform: uppercase;
+}
+
+.project-row-dark {
+	color: white;
+	width: 100%;
+	font-family: Arial;
+	padding: 10% 5% 10% 5%;
+	text-align: center;
+}
+
+.project-row-dark h2 {
+	font-family: 'MyriadProBold', Arial, serif;
+	text-transform: uppercase;
+}
+
+
+.navbar-brand small{
+  display: block;
+  font-size: 10px;
+}
+
+.navbar-brand img {
+  margin-right: 0px;
+}
+
+.bg-primary {
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+.cf-template {
+	padding: 3rem 1.5rem;
+	text-align: center;
+	margin: auto;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
